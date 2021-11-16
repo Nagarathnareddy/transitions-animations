@@ -1,0 +1,76 @@
+.desert
+{
+    width: 2000px;
+    height: 1000px;
+    transition: width 20s;
+    transition-timing-function: linear;
+    background: fixed;
+    
+    
+}
+.desert:hover
+{
+    width: 4000px;
+    
+}
+.car
+{
+    position: absolute;
+    left: 100px;
+    bottom: -11px;
+
+    animation-name:car ;
+    
+   
+}
+.wheel
+{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 180px;
+    bottom: 1px;
+    padding: 0pc;
+ 
+    border: black;
+    border-radius: 80%;
+    border-width: 15px;
+  
+    animation: wheel 3s infinite linear;
+}
+.nowheel
+{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left:785px ;
+    bottom: 10px;
+    padding: 0pc;
+    border: black;
+    border-radius: 80%;
+    border-width: 15px;
+    
+    animation: wheel 3s infinite linear;
+}
+@keyframes wheel
+{
+   from
+   {
+      transform: rotat(0deg);
+
+   } 
+   to
+   {
+       transform: rotate(360deg);
+   }
+
+}
+
+    
+
+   
+
+
+
+    
+
